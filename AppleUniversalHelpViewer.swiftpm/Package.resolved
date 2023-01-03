@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "appleuniversalcore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/steventroughtonsmith/AppleUniversalCore.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e1232caf11c9c6f9299ed3168f7f941d7d70422f"
+      }
+    },
+    {
+      "identity" : "appleuniversalhelp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/steventroughtonsmith/AppleUniversalHelp.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3b38ad9131c3c9aafae4d9e2686218334cb5557f"
+      }
+    }
+  ],
+  "version" : 2
+}

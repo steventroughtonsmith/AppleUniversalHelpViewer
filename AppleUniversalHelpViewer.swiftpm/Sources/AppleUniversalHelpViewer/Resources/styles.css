@@ -1,0 +1,94 @@
+/*
+ https://codepen.io/tomhodgins/pen/zqQgMX
+ */
+
+* {
+	box-sizing: border-box;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	font-kerning: auto;
+}
+html {
+	line-height: 1.4;
+	font: -apple-system-body;
+	color: black;
+}
+body {
+	padding: 1em;
+	margin: 0 auto;
+	max-width: 840px;
+	font-size: 11pt;
+}
+
+a {
+	color: #007aff;
+	text-decoration: none;
+}
+
+img {
+	max-width: 300pt;
+	overflow: hidden;
+}
+
+h1 {
+	padding: 0pt;
+	margin: 2pt;
+}
+
+hr {
+	border: 0.5pt solid;
+	opacity: 0.2;
+}
+
+.header {
+	height: 60pt;
+	margin-bottom: 20pt;
+	overflow: hidden;
+}
+
+.header-left {
+	float:left;
+	width: 60pt;
+	height: 60pt;
+	display: block;
+	margin-right: 8pt;
+}
+
+.header-right {
+	padding-top: 8pt;
+}
+
+.appicon {
+	width: 60pt;
+	height: 60pt;
+	display: block;
+}
+
+.toccontainer {
+	width: 16pt;
+	height: 16pt;
+	display: inline-block;
+	margin-right: 4pt;
+}
+
+.tocsymbol {
+	margin-top: 5pt;
+	width: 16pt;
+	height: 12pt;
+	float: left;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		color: rgba(250, 250, 250, 1.0);
+	}
+	
+	a {
+	}
+	
+	body {
+	}
+	
+	.tocsymbol {
+	}
+}

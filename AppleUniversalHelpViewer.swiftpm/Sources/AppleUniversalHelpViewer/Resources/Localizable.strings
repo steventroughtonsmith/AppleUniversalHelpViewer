@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Steven Troughton-Smith on 03/01/2023.
+  
+*/
+
+"HELP_TOC_TITLE" = "Help";
+"HELP_TOC_SEARCH_PLACEHOLDER" = "Search";
