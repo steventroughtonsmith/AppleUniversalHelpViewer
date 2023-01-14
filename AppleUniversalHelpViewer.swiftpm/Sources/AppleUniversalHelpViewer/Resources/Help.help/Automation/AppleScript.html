@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta charset="utf-8"/>
+		<link rel='stylesheet' href='inbuilt://styles.css'>
+	</head>
+	<body>
+		<h3>Automation using AppleScript</h3>
+		<p>On macOS, Broadcasts supports automation using AppleScript. You can perform common tasks like starting/stopping playback, playing specific stations from your library, setting the current volume, or getting the current station name.</p>
+		<p>Combined with other third-party apps, you can integrate Broadcasts automation into your workflows.</p>
+	
+		
+		<hr/>
+		
+		<h3>Getting started with AppleScript in Broadcasts</h3>
+		<p>From the <b>Script Editor</b> app, in the <b>Utilities</b> folder of your Mac, choose <b>Open Dictionary…</b> and select Broadcasts in the list to see its AppleScript vocabulary.</p>
+		<p>For more information about using AppleScript, see the <a href="https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html">AppleScript Language Guide</a><img class="linkoutimg"/>.</p>
+		<hr/>
+		<h3>Example Script</h3>
+		<pre style="font-size: 10pt"><code>
+<b>tell</b> <i style="color:blue">application</i> "Broadcasts"
+	<b style="color:blue">activate</b>
+	<b style="color:blue">play</b> "BBC Radio 1"
+	<b>set the</b> <span style="color:#812fdc">sound volume</span> <b>to</b> 25
+<b>end tell</b>
+		</code></pre>
+		<hr/>
+		<p>See also: <a href="../Automation/Shortcuts.html">Automation using Shortcuts</a></p>
+
+	</body>
+</html>

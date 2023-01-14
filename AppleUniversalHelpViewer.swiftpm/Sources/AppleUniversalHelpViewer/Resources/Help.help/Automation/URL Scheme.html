@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta charset="utf-8"/>
+		<link rel='stylesheet' href='inbuilt://styles.css'>
+	</head>
+	<body>
+		<h3>Automation using URL Schemes</h3>
+		<p>Broadcasts has a built-in <b>URL Scheme</b> for adding a station or streaming audio source to your library, or playing one directly without adding it. This lets you provide a link directly to a particular public stream or live podcast that you can share with others, or, combined with a link shortener, embed on a website or social media service.</p>
+		<hr/>
+		<h3>Usage</h3>
+		<code>broadcasts://[verb]?[param1=value][&amp;param2=value]</code>
+		<h3>Verbs</h3>
+		<ul>
+			<li>play</li>
+			<li>add</li>
+		</ul>
+		<h3>Parameters</h3>
+		<ul>
+			<li>name</li>
+			<li>address</li>
+			<li>artworkAddress</li>
+		</ul>
+		<p>Parameters can be provided in plain text, percent-encoded. Address parameters are regular URLs and can optionally be encoded using <b>base64</b>.</p3>
+		
+		<h3>Example</h3>
+		
+		<code>broadcasts://add?name=My%20Great%20Station&address=https://127.0.0.1:8080</code>
+
+		<hr/>
+		<p>See also: <a href="AppleScript.html">Automation using AppleScript</a>, <a href="Shortcuts.html">Shortcuts</a></p>
+
+	</body>
+</html>

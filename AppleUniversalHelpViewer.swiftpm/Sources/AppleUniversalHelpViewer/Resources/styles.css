@@ -1,6 +1,3 @@
-/*
- https://codepen.io/tomhodgins/pen/zqQgMX
- */
 
 * {
 	box-sizing: border-box;
@@ -26,7 +23,7 @@ a {
 }
 
 img {
-	max-width: 300pt;
+	max-width: 100%;
 	overflow: hidden;
 }
 
@@ -78,17 +75,74 @@ hr {
 	float: left;
 }
 
+details {
+	cursor: pointer;
+}
+
+details[open] {
+}
+
+details summary {
+	font-weight: 600;
+	margin: 16px 0px;
+	outline: none;
+}
+
+details[open] summary {
+	margin-bottom: 16px;
+}
+
+details summary::-webkit-details-marker {
+	color: transparent;
+	background: url('helpbundle://images/disclosure-closed.png');
+	background-repeat: no-repeat;
+	background-size: 9px 9px
+}
+
+details[open] summary::-webkit-details-marker {
+	background: url('helpbundle://images/disclosure-open.png');
+	background-repeat: no-repeat;
+	background-size: 9px 9px
+}
+
+td {
+	padding-left: 8pt;
+	padding-right: 8pt;
+}
+
+.menudirections {
+	padding-left: 8pt;
+	padding-right: 8pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-radius: 4pt;
+	border-width: 1pt;
+	border-style: solid;
+	border-color: rgba(40, 40, 40, 0.1);
+	background: rgba(240, 240, 240, 1.0);
+	display: block;
+}
+
+.inlinesymbol {
+	margin-left: 4pt;
+	margin-right: 4pt;
+}
+
+.linkoutimg {
+	content: url('helpbundle://images/linkout.png');
+	width: 10pt;
+	height: 10pt;
+	margin-left: 2pt;
+	margin-right: 2pt;
+}
+
 @media (prefers-color-scheme: dark) {
 	html {
 		color: rgba(250, 250, 250, 1.0);
 	}
 	
-	a {
-	}
-	
-	body {
-	}
-	
-	.tocsymbol {
+	.menudirections {
+		background: rgba(40, 40, 40, 1.0);
+		border-color: rgba(240, 240, 240, 0.1);
 	}
 }

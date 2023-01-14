@@ -1,6 +1,9 @@
 [
 	"Welcome.html",
-	"Features",
+	"Basics",
+	"Adding Stations",
+	"Editing Stations",
 	"Advanced",
-	"Acknowledgements.html"
+	"Automation",
+	"Upgrading.html",
 ]
